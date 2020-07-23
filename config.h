@@ -1,0 +1,7 @@
+#pragma once
+
+#undef RGBLIGHT_ANIMATIONS
+
+#define RGBLIGHT_LAYERS
+#define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
+
