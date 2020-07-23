@@ -9,10 +9,10 @@ const rgblight_segment_t PROGMEM browser_rgb_indicator[] = RGBLIGHT_LAYER_SEGMEN
 const rgblight_segment_t PROGMEM history_rgb_indicator[] = RGBLIGHT_LAYER_SEGMENTS( {LED_POSITION, 1, HSV_PINK}   );
 
 const rgblight_segment_t* const PROGMEM jkelaty_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
-    volume_rgb_indicator,
-    desktop_rgb_indicator,
-    browser_rgb_indicator,
-    history_rgb_indicator
+    [VOLUME]  = volume_rgb_indicator,
+    [DESKTOP] = desktop_rgb_indicator,
+    [BROWSER] = browser_rgb_indicator,
+    [HISTORY] = history_rgb_indicator
 );
 
 void keyboard_post_init_user(void) {

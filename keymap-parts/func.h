@@ -56,9 +56,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             }
             /* Set dial directional flag */
             // if (record->event.pressed) {
-            //     DIAL_FLAG = true;
+            //     DIAL_CW_FLAG = true;
             // } else {
-            //     DIAL_FLAG = false;
+            //     DIAL_CW_FLAG = false;
             // }
             break;
         case DIAL_CC:
@@ -69,7 +69,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             }
             /* Handle dial event */
             // if (record->event.pressed) {
-            //     handle_dial_on(DIAL_FLAG);
+            //     handle_dial_on(DIAL_CW_FLAG);
             // } else {
             //     handle_dial_off();
             // }
