@@ -1,6 +1,5 @@
 #pragma once
 
-
 void handle_dial_button_on(void);
 void handle_dial_button_off(void);
 
