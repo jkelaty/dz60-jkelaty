@@ -10,8 +10,8 @@
  * @date 2020-07-23
  * @brief https://github.com/jkelaty/dz60_jkelaty
  */
+
 #include "keymap-parts/defs.h"
 #include "keymap-parts/func.h"
 #include "keymap-parts/layers.h"
-#include "keymap-parts/lighting_layers.h"
 
