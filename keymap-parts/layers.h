@@ -14,7 +14,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         SWITCH,  _______, KC_UP,   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_GRV,
         _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, _______, _______, _______, _______, _______, _______,          _______,
         _______, XXXXXXX, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_SLEP, KC_VOLU, _______,
-        RESET,   EEP_RST, _______,                   XXXXXXX, _______, XXXXXXX,                   _______, _______, KC_BRID, KC_VOLD, KC_BRIU
+        RESET,   EEP_RST, _______,                   XXXXXXX, _______, XXXXXXX,                   _______, _______, KC_BRMD, KC_VOLD, KC_BRMU
     ),
     
     [CONT] = LAYOUT_all(
